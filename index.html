@@ -1,0 +1,52 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Thai handwriting character recognition</title>
+        <script src="canvas.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header text-center">
+                <h1>Thai handwriting character recognition</h1>
+                <h4>Machine Learning Project</h4>
+                <hr>
+            </div>
+            <div class="content row">
+                <div class="col-sm text-center align-center">
+                    <canvas id="canvas" class="border border-secondary rounded"></canvas>
+                </div>
+                <div class="col-sm">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="text-center">
+                                    <a id="predictButton" class="btn btn-primary" href="#">Predict</a>
+                                    <button
+                                        class="btn btn-outline-secondary"
+                                        id="clearButton"
+                                    >Clear</button>
+                                </div>
+                                <hr style="display: none;">
+                                <table style="display: none;">
+                                    <tr>
+                                        <td><p>Result :</p></td>
+                                        <td>
+                                            <p id="result" class=""></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer text-center text-secondary">
+                <hr>
+                <p>&copy; 2021, Applied Computer Science, King Mongkut's University of Technology</p>
+            </div>
+        </div>
+    </body>
+</html>

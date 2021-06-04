@@ -1,0 +1,19 @@
+* {
+  margin: auto;
+  padding: 4px;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+#canvas {
+    cursor: crosshair;
+}
+hr {
+  top: 5px;
+  padding: 0;
+  color: black;
+}
